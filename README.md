@@ -4,13 +4,13 @@ I've completed this challenge from [Front-end Mentor](https://www.frontendmentor
 
 ### Desktop Design
 
-![Design preview for the Product preview card component coding challenge](design/desktop-preview.jpg)
+![Design preview for the Product preview card component coding challenge](assets/design/desktop-preview.jpg)
 
 ### Mobile Design
 
-![Design preview for the Product preview card component coding challenge](design/mobile-design.jpg) 
+![Design preview for the Product preview card component coding challenge](assets/design/mobile-design.jpg) 
 
-## Things that I learned
+## Things that I Learned
 This project was a basic responsive project, but there were some subtle things that I learned and discovered. 
 
 Starting off, I recognized it myself that how to change only 1, 2 and 3 borders (corners) of an image or a div, default way of using the border-radius property would set all the cover rounded but you can also set what corners you want to round.
