@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: fraunces;
-    src: url(assets/Fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+    src: url(assets/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
 }
 
 /* font-family: 'Montserrat',
@@ -46,15 +46,104 @@ body {
 }
 
 .content {
-    padding: 20px;
+    padding: 25px;
 }
 
 .content > :nth-child(1) {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 11px;
+    color: var(--Dark-grayish-blue);
+    margin-bottom: 15px;
 }
 
 .content > :nth-child(3) {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+    color: var(--Dark-grayish-blue);
+    margin-bottom: 20px;
+}
+
+.content > h1 {
+    font-family: fraunces;
+    font-size: 27px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.pricing span {
+    font-family: fraunces;
+    font-size: 26px;
+    line-height: 25px;
+    color: var(--Dark-cyan);
+    font-weight: 700;
+}
+
+.pricing del {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.content button {
+    border: none;
+    background-color: var(--Dark-cyan);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+
+.content p {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 530px) {
+    .container {
+        flex-direction: column;
+        height: 450px;
+        width: 250px;
+    }
+
+    .container > img {
+        width: 100%;
+        height: 40%;
+        content: url(assets/images/image-product-mobile.jpg);
+        border-radius: 10px 10px 0 0;
+    }
+
+    .content {
+        padding: 20px;
+    }
+    
+    .content > h1 {
+        font-family: fraunces;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .content > :nth-child(1) {
+        margin-bottom: 10px;
+    }
+
+    .content > :nth-child(3) {
+        margin-bottom: 15px;
+        font-size: 11px;
+    }
+
+    .pricing {
+        margin-bottom: 10px;
+    }
 }
