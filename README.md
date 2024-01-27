@@ -4,7 +4,7 @@ I've completed this challenge from [Front-end Mentor](https://www.frontendmentor
 
 ### Desktop Design
 
-![Design preview for the Product preview card component coding challenge](assets/design/desktop-preview.jpg)
+![Design preview for the Product preview card component coding challenge](assets/design/desktop-design.jpg)
 
 ### Mobile Design
 
